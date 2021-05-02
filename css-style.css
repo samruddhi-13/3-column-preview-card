@@ -1,0 +1,76 @@
+h2{
+  color: white;
+  padding: 30px 0 25px 0;
+  font-family: 'Antonio', sans-serif;
+  font-size: 50px;
+}
+p{
+   color: #e0dcdc;
+   padding-bottom: 60px;
+}
+
+.container{
+  padding: 8%;
+}
+
+.left-container{
+  background-color: #d98a3b;
+  padding: 50px 80px 60px 60px;
+  border-radius: 10px 0 0 10px;
+}
+.middle-container{
+  background-color: #19666b;
+  padding: 50px 80px 60px 60px;
+}
+.right-container{
+  background-color: #1d3d38;
+  padding: 50px 80px 60px 60px;
+  border-radius: 0 10px 10px 0;
+}
+
+/* button */
+.sedan-button{
+  border-radius: 25px;
+  color: #d98a3b;
+}
+.suvs-button{
+ border-radius: 25px;
+}
+.luxury-button{
+ border-radius: 25px;
+}
+
+/* hover button */
+.sedan-button:hover{
+  border-color: white;
+  color: white;
+  background-color: #d98a3b;
+}
+.suvs-button:hover{
+  border-color: white;
+  color: white;
+  background-color: #19666b;
+}
+.luxury-button:hover{
+  border-color: white;
+  color: white;
+  background-color: #1d3d38;
+}
+
+/* media query */
+@media (max-width:1028px){
+  p{
+    padding: 0 90px 40px 0;
+  }
+  .left-container{
+    border-radius: 10px 10px 0 0;
+  }
+  .middle-container{
+
+
+  }
+  .right-container{
+    border-radius: 0 0 10px 10px;
+  }
+
+}
